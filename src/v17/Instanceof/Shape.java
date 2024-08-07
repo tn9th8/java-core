@@ -9,7 +9,7 @@ The method getPerimeter performs the following:
  */
 public interface Shape {
     // bad
-    public static double getPerimeter(Shape shape) throws IllegalAccessException {
+    public static double getPerimeterBad(Shape shape) throws IllegalAccessException {
         if (shape instanceof Rectangle) {
             Rectangle rectangle = (Rectangle) shape;
             return 2 * rectangle.getLength() + 2 * rectangle.getWidth();

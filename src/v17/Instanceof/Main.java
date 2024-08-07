@@ -8,9 +8,8 @@ public class Main {
 
         // getPerimeter method
         try {
-            System.out.println(Shape.getPerimeter(rectangle));
-            System.out.println(Shape.getPerimeter(circle));
-            System.out.println(Shape.getPerimeter(shape));
+            System.out.println(Shape.getPerimeterBad(rectangle));
+            System.out.println(Shape.getPerimeterBad(circle));
         } catch (IllegalAccessException e) {
             System.out.println(e.getMessage());
         }
@@ -19,7 +18,6 @@ public class Main {
         try {
             System.out.println(Shape.getPerimeterGood(rectangle));
             System.out.println(Shape.getPerimeterGood(circle));
-            System.out.println(Shape.getPerimeterGood(shape));
         } catch (IllegalAccessException e) {
             System.out.println(e.getMessage());
         }
