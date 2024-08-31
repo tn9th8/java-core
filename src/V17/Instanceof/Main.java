@@ -1,4 +1,4 @@
-package v17.Instanceof;
+package V17.Instanceof;
 
 public class Main {
     public static void main(String[] args)  {

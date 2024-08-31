@@ -1,4 +1,4 @@
-package v17.Instanceof;
+package V17.Instanceof;
 
 /*
 The method getPerimeter performs the following:

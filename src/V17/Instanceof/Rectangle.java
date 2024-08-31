@@ -1,4 +1,4 @@
-package v17.Instanceof;
+package V17.Instanceof;
 
 public class Rectangle implements Shape {
     // attribute
